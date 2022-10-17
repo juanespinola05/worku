@@ -1,0 +1,36 @@
+.banner {
+  background-color: var(--blue);
+  color: var(--white);
+  padding-top: 30px;
+  max-height: 700px
+}
+
+.banner__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1;
+}
+
+.banner__title {
+  font-size: 2.5em;
+}
+
+.banner__container > div {
+  /* border: 1px solid white */
+}
+
+.banner__hero {
+  overflow: hidden;
+  position: relative;
+  top: -60px;
+}
+
+.banner__hero img {
+  transform: scale(1.2);
+}
